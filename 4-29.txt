@@ -1,2 +1,2 @@
 0800: researching project ideas
-0915: leaning towards a tournament tracker
+0915: looking deeper into creating tournament tracker.  see tournament-whiteboaord.draio for MVP & stretch goal notes
