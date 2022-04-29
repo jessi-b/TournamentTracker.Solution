@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" modified="2022-04-29T21:33:33.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="SKpn3abQLEANyiqRVhx_" version="17.5.0" type="github">
+  <diagram id="24aSNxZfA7KApqdZVWOa" name="Page-1">
+    <mxGraphModel dx="891" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-5" value="Tournament Name&lt;br&gt;type - ruleset" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="541" y="83" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.pinimg.com/originals/84/d5/9a/84d59a03d398927e3fe25333a86f4409.png;" parent="1" vertex="1">
+          <mxGeometry x="551" y="126" width="166.84" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-9" value="player" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="541" y="116" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-10" value="player" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="541" y="146" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-11" value="clicking match displays how players match up" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="430" y="93" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-15" value="&lt;font color=&quot;#00cc00&quot;&gt;POST MATCH&lt;br&gt;clicking will add column for match deet&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="430" y="153" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-16" value="&lt;font color=&quot;#000000&quot;&gt;Players&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="525" y="263" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-17" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(51, 51, 255); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;list all players in this tournament alphabetically&lt;/span&gt;&#xa;&#xa;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="465" y="283" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-18" value="&lt;font color=&quot;#009900&quot;&gt;clicking player brings up their specific stats&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="455" y="343" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-21" value="&lt;font color=&quot;#000000&quot;&gt;Teams&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="604.42" y="263" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-22" value="MVP - single access level" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="301" y="10" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-23" value="all can read the progress of the tournament and match &amp;amp; user details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="91" y="40" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-30" value="Tournament Name&lt;br&gt;type - ruleset" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="121" y="83" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-31" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.pinimg.com/originals/84/d5/9a/84d59a03d398927e3fe25333a86f4409.png;" parent="1" vertex="1">
+          <mxGeometry x="131" y="126" width="166.84" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-32" value="player" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="121" y="116" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-33" value="player" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="121" y="146" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-34" value="clicking match displays how players match up" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="10" y="93" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-35" value="&lt;font color=&quot;#00cc00&quot;&gt;POST MATCH&lt;br&gt;clicking will add column for match deet&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="10" y="153" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-37" value="admin can add and update tournaments players &amp;amp;&amp;nbsp; match details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="521" y="40" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-38" value="Create Competitor Form" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="360" y="400" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-39" value="First Name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#000000;" parent="cTb3x9d0wBZPwxD1PELp-38" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-40" value="Last Name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#000000;" parent="cTb3x9d0wBZPwxD1PELp-38" vertex="1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-41" value="Affiliated team" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#000000;" parent="cTb3x9d0wBZPwxD1PELp-38" vertex="1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-42" value="Create Tournament Form" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="41" y="400" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-43" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#000000;" parent="cTb3x9d0wBZPwxD1PELp-42" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-44" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#000000;" parent="cTb3x9d0wBZPwxD1PELp-42" vertex="1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-45" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#000000;" parent="cTb3x9d0wBZPwxD1PELp-42" vertex="1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cTb3x9d0wBZPwxD1PELp-46" value="Creates new Team if not already in team list" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="519" y="490" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5-mUB8CVXkY6G2W_GQW-1" value="&lt;font color=&quot;#000000&quot;&gt;Players &amp;amp; Ranks&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="156" y="263" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
