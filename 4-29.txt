@@ -7,3 +7,7 @@
 exploring react
 1520: https://www.youtube.com/watch?v=8532QQbNk3o  education ecosystemtournament tracker in react
 1550: https://www.youtube.com/watch?v=cs1xwDSESt4  education ecosystem tournament tracker in react
+
+1630: researching documentation to use c# backend & react UI
+https://docs.microsoft.com/en-us/visualstudio/javascript/tutorial-asp-net-core-with-react?view=vs-2022
+https://reactjs.net/tutorials/aspnetcore.html
