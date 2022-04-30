@@ -1,4 +1,6 @@
-0800: researching project ideas
+### Research & Planning Log
+#### 8/29
+researching project ideas
 0915: looking deeper into creating tournament tracker.  see tournament-whiteboaord.draio for MVP & stretch goal notes
 1015: https://www.youtube.com/watch?v=wfWxdh-_k_4&t=2302s - freecodecamp demo of tournament tracker. this is a good base but will be adapted to fit bjj tournament
 1300: continuing watching freecodebootcamp demo & taking notes
