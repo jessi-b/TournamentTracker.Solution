@@ -8,11 +8,11 @@ namespace TournamentTracker.Models {
     }
     public int CompetitorId {get; set;}
     public string FirstName {get; set;}
-    public string LastName {get; set;}
-    public DateTime DOB {get; set;}
-    public string Email {get; set;}
-    public string Number {get; set;}
-    public string Team {get; set;} // stretch: additional class for team
+    // public string LastName {get; set;}
+    // public DateTime DOB {get; set;}
+    // public string Email {get; set;}
+    // public string Number {get; set;}
+    // public string Team {get; set;} // stretch: additional class for team
     // public string Skill {get; set; } // stretch: taken into acount to be assigned to division
     // public string Weight {get; set;} // stretch: taken into acount to be assigned to division
     public bool Winner {get; set;} // default false; iwin = true; if true advance & reset to default
