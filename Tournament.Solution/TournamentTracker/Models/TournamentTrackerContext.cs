@@ -8,7 +8,8 @@ namespace TournamentTracker.Models {
     public DbSet<Bracket> Brackets {get; set;}
     public DbSet<Round> Rounds {get; set;}
     public DbSet<Match> Matches {get; set;}
-    
+    public DbSet<TournamentCompetitor> TournamentCompetitors {get; set;}
+    public DbSet<CompetitorMatch> CompetitorMatches {get; set;}
     public TournamentTrackerContext(DbContextOptions options) : base(options) { }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
       optionsBuilder.UseLazyLoadingProxies();

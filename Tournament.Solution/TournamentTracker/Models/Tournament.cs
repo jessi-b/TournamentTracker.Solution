@@ -1,14 +1,15 @@
 using System.Collections.Generic;
+using System;
 
 namespace TournamentTracker.Models {
   public class Tournament {
     public Tournament()
     {
-        this.Competitors = new HashSet<Competitor>(); // many tournaments to many competitors 
+      this.Competitors = new HashSet<Competitor>(); // many tournaments to many competitors 
     }
     public int TournamentId {get; set;}
     public string Name {get; set;}
-    public string Date {get; set;}
+    public DateTime Date {get; set;}
     public string Location {get; set;}
     public string Description {get; set;} 
     public int BracketId { get; set; }

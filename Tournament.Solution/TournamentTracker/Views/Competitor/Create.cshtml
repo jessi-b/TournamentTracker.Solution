@@ -1,0 +1,37 @@
+@{Layout = "_Layout";}
+
+@model Pierre.Models.Competitor;
+
+<div class="card">
+  <div class="card-header">
+  <h3>New Competitor</h3>
+  </div>
+  <div class="card-body">
+    <p class="card-text">
+      <div class="col-auto">
+      @using (Html.BeginForm()) {
+        <div class="col-auto">
+          First Name
+          @Html.TextBoxFor(m => m.FirstName, new {@class = "form-control", placeholder = "First Name", required="required"})
+          Last Name
+          @Html.TextBoxFor(m => m.LastName, new {@class = "form-control", placeholder = "Last Name", required="required"})
+          Birth Date
+          @Html.TextBoxFor(m => m.DOB, new {@type = "date", @class = "form-control", placeholder = "MM/DD/YY", required="required"})
+          Email
+          @Html.TextBoxFor(m => m.Email, new {@class = "form-control", placeholder = "email@address.com", required="required"})
+          Phone Number
+          @Html.TextBoxFor(m => m.Number, new {@class = "form-control", placeholder = "###-###-####", required="required"})
+          Team Affiliation
+          @Html.TextBoxFor(m => m.Team, new {@class = "form-control", placeholder = "Team", required="required"})
+          @* Skill Level
+          @Html.TextBoxFor(m => m.Skill, new {@class = "form-control", placeholder = "", required="required"})
+          Weight (lbs)
+          @Html.TextBoxFor(m => m.Weight, new {@class = "form-control", placeholder = "###", required="required"}) *@
+        </div>
+        <br>
+        <input type="submit" value="Submit" class="btn btn-info"/>
+        }
+      </p>
+    </div>
+  </div>
+</div>
