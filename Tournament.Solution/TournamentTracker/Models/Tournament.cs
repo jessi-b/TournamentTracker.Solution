@@ -2,19 +2,18 @@ using System.Collections.Generic;
 
 namespace TournamentTracker.Models {
   public class Tournament {
-    public Tournament() {
-      this.Competitors = new HashSet<Competitor>();
-      this.Rounds = new HashSet<Round>();
-      this.Matches = new HashSet<Match>();
+    public Tournament()
+    {
+        this.Competitors = new HashSet<Competitor>(); // many tournaments to many competitors 
     }
     public int TournamentId {get; set;}
     public string Name {get; set;}
     public string Date {get; set;}
     public string Location {get; set;}
-    public string Description {get; set;}
-    public string Bracket {get; set;} // stretch: many brackets/divisions
-    public virtual ICollection<Competitor> Competitors {get; set;}
-    public virtual ICollection<Round> Rounds {get; set;}
-    public virtual ICollection<Match> Matches {get; set;}
+    public string Description {get; set;} 
+    public int BracketId { get; set; }
+    public virtual Bracket Bracket {get; set;} // one tournament to one 
+    // stretch: one tournament to many brackets(divisions)
+    public virtual ICollection<Competitor> Competitors {get; set;} // many tournaments to many competitors
   }
 }
