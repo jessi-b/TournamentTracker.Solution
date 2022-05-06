@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T16:42:22.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="79go9QRWb4llehDGuod3" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-06T16:47:38.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="w9jDp4b2RyAQJDn8DV9M" version="17.5.0" type="github">
   <diagram id="Dto1LwixQbTy5FbZoD5w" name="Page-1">
-    <mxGraphModel dx="1365" dy="1682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1750" dy="2049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="690" y="-80" width="220" height="260" as="geometry" />
         </mxCell>
         <mxCell id="I17-rHQZrSn2T5uz6WZd-2" value="Class: Tournament&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Props:&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span&gt;UID&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span&gt;name (req. str)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;date (req. date)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;type (sing elim / &lt;font color=&quot;#ff0000&quot;&gt;round robin&lt;/font&gt;)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;rule set dropdown&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;EBI (bool)&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;W in OT or regulation&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;if OT by sub or Time&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;what were the times&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;Pts (bool)&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;each players points&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;or by submission&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;if sub include time option&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;Sub only (bool)&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;specific sub&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;time&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;or DRAW&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;match time limit&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;players (list from players)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;fee (optional, num dec)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;prizes (bool)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;divisions (list of divisions)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;bracket (list of rounds)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;rounds (list of matches for each round)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;matches&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;rankings&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="40" y="-190" width="220" height="570" as="geometry" />
+          <mxGeometry x="40" y="-190" width="280" height="460" as="geometry" />
         </mxCell>
         <mxCell id="I17-rHQZrSn2T5uz6WZd-4" value="Class: Team&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Props:&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span&gt;UID&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span&gt;name (req. str)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;location (req. date)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;affiliated locations&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="690" y="200" width="220" height="140" as="geometry" />
@@ -67,11 +67,14 @@
         <mxCell id="DNKvbdSlE9xRFTF0Dy2_-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.014;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;verticalAlign=top;" parent="1" source="DNKvbdSlE9xRFTF0Dy2_-22" target="I17-rHQZrSn2T5uz6WZd-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DNKvbdSlE9xRFTF0Dy2_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontColor=#000000;verticalAlign=top;" parent="1" source="DNKvbdSlE9xRFTF0Dy2_-22" target="DNKvbdSlE9xRFTF0Dy2_-14" edge="1">
+        <mxCell id="DNKvbdSlE9xRFTF0Dy2_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;verticalAlign=top;" parent="1" source="DNKvbdSlE9xRFTF0Dy2_-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="410" y="630" />
+              <mxPoint x="410" y="860" />
+              <mxPoint x="410" y="690" />
+              <mxPoint x="310" y="690" />
             </Array>
+            <mxPoint x="310" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DNKvbdSlE9xRFTF0Dy2_-22" value="winners populate next round&#39;s matches" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
@@ -137,6 +140,61 @@
         </mxCell>
         <mxCell id="0Kmx9yNMn8UbRSc0F6R5-30" value="many divisions to one tornament" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="350" y="240" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0Kmx9yNMn8UbRSc0F6R5-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="0Kmx9yNMn8UbRSc0F6R5-34" target="0Kmx9yNMn8UbRSc0F6R5-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="250" />
+              <mxPoint x="550" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Kmx9yNMn8UbRSc0F6R5-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;entryX=0.01;entryY=0.301;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0Kmx9yNMn8UbRSc0F6R5-34" target="I17-rHQZrSn2T5uz6WZd-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Kmx9yNMn8UbRSc0F6R5-34" value="one to one" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="465" y="120" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Kmx9yNMn8UbRSc0F6R5-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="0Kmx9yNMn8UbRSc0F6R5-38" target="I17-rHQZrSn2T5uz6WZd-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Kmx9yNMn8UbRSc0F6R5-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.016;entryY=0.872;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="0Kmx9yNMn8UbRSc0F6R5-38" target="0Kmx9yNMn8UbRSc0F6R5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Kmx9yNMn8UbRSc0F6R5-38" value="&lt;font color=&quot;#000000&quot;&gt;one to one&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Kmx9yNMn8UbRSc0F6R5-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="0Kmx9yNMn8UbRSc0F6R5-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Kmx9yNMn8UbRSc0F6R5-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="0Kmx9yNMn8UbRSc0F6R5-43" target="I17-rHQZrSn2T5uz6WZd-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="645" />
+              <mxPoint x="960" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Kmx9yNMn8UbRSc0F6R5-43" value="many rounds to one competitors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Kmx9yNMn8UbRSc0F6R5-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="0Kmx9yNMn8UbRSc0F6R5-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Kmx9yNMn8UbRSc0F6R5-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="0Kmx9yNMn8UbRSc0F6R5-44" target="I17-rHQZrSn2T5uz6WZd-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="775" />
+              <mxPoint x="990" y="33" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Kmx9yNMn8UbRSc0F6R5-44" value="many matches to one competitors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="760" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
