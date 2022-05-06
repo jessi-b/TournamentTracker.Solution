@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using MvcApiCall.Models;
 
 namespace TournamentTracker.Controllers {
   public class HomeController : Controller {

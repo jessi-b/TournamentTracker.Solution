@@ -22,7 +22,7 @@ namespace TournamentTracker {
         .AddDbContext<TournamentTrackerContext>(options => options
         .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
       services.AddIdentity<ApplicationUser, IdentityRole>()
-        .AddEntityFrameworkStores<ToDoListContext>()
+        .AddEntityFrameworkStores<TournamentTrackerContext>()
         .AddDefaultTokenProviders();
         
 // DEVELOPMENT USE ONLY - Never use in production environment
