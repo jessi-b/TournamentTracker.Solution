@@ -24,3 +24,4 @@ https://reactjs.net/tutorials/aspnetcore.html
 * https://www.entityframeworktutorial.net/code-first/code-first-from-existing-database.aspx
 * 1120: reviewing c# demo (https://www.youtube.com/watch?v=wfWxdh-_k_4&list=PLQyZ_tRdoL_cs7vO7JqKYI2i7lqCPf18x&index=1&t=7100s)
 * 1410: researching general aesthetics & styling for begining UI
+* 1530: reviewing c# demo (https://www.youtube.com/watch?v=wfWxdh-_k_4&list=PLQyZ_tRdoL_cs7vO7JqKYI2i7lqCPf18x&index=1&t=7100s)
