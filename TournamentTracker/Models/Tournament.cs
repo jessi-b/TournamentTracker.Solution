@@ -8,7 +8,7 @@ namespace TournamentTracker.Models {
   public class Tournament {
     public Tournament()
     {
-      this.Competitors = new List<TournamentCompetitor>(); // many tournaments to many competitors 
+      this.JoinCompetitors = new List<TournamentCompetitor>(); // many tournaments to many competitors 
     }
     public int TournamentId {get; set;}
     public string Name {get; set;}
