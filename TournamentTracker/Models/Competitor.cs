@@ -1,10 +1,15 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace TournamentTracker.Models {
   public class Competitor {
     public Competitor() {
-      this.Tournaments = new HashSet<Tournament>();
-      this.Matches = new HashSet<Match>();
+      this.JoinTournaments = new List<TournamentCompetitor>();
+      this.JoinMatchups = new List<MatchupCompetitor>();
     }
     public int CompetitorId {get; set;}
     public string FirstName {get; set;}
@@ -15,9 +20,8 @@ namespace TournamentTracker.Models {
     // public string Team {get; set;} // stretch: additional class for team
     // public string Skill {get; set; } // stretch: taken into acount to be assigned to division
     // public string Weight {get; set;} // stretch: taken into acount to be assigned to division
-    public bool Winner {get; set;} // default false; iwin = true; if true advance & reset to default
-    public virtual ICollection<Tournament> Tournaments  {get; set;} // many competitors to many tournaments
-    public virtual ICollection<Match> Matches  {get; set;} // many competitors to many tournaments
-    public virtual ApplicationUser User { get; set; }
+    public virtual IList<TournamentCompetitor> JoinTournaments { get; set; } // many competitors to many tournaments
+    public virtual IList<MatchupCompetitor> JoinMatchups { get; set; } // many competitors to many tournaments
+    // public virtual ApplicationUser User { get; set; }
   }
 }
